@@ -12,16 +12,25 @@ The goal is to prepare raw data for analysis by ensuring consistency, accuracy, 
 
 ## 🧹 Data Cleaning Steps
 The following transformations were applied:
+- Corrected the table structure by promoting headers
+- Adjusted data types to match the content of each column
+- Removed unnecessary rows from the top of the dataset
+- Renamed and reordered columns for better readability
+- Replaced inconsistent or incorrect values
+- Sorted the data to improve organization
+- Filled down missing values where needed
 
-- Removed errors and handled missing values
-- Trimmed and cleaned text fields
-- Standardized text formatting (capitalization)
-- Split columns into meaningful components
-- Merged columns to create full names
-- Created calculated columns (e.g., name length)
-- Converted data types
-- Applied mathematical transformations (multiply, subtract, rounding)
+## 📸 Project Screenshots
 
+### Before Cleaning
+![Before](images/before.png)
+
+The dataset initially contained unstructured data, incorrect headers, and inconsistent formatting, making it difficult to analyze.
+
+### After Cleaning
+![After](images/after.png)
+
+After applying data cleaning and transformation steps in Power Query, the dataset is structured, consistent, and ready for analysis.
 ---
 
 ## 🛠 Tools Used

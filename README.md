@@ -9,16 +9,17 @@ This project demonstrates data cleaning and transformation techniques using Powe
 The goal is to prepare raw data for analysis by ensuring consistency, accuracy, and usability.
 
 ---
-
 ## 🧹 Data Cleaning Steps
-The following transformations were applied:
-- Corrected the table structure by promoting headers
-- Adjusted data types to match the content of each column
-- Removed unnecessary rows from the top of the dataset
-- Renamed and reordered columns for better readability
-- Replaced inconsistent or incorrect values
-- Sorted the data to improve organization
-- Filled down missing values where needed
+
+The dataset was cleaned and transformed in Power Query using the following steps:
+
+- Promoted headers to correctly define column names
+- Changed data types to match the content of each column
+- Removed unnecessary top rows
+- Renamed and reordered columns for better structure
+- Replaced incorrect or inconsistent values
+- Sorted the dataset for better organization
+- Used Fill Down to handle missing values
 
 ## 📸 Project Screenshots
 
